@@ -2,17 +2,15 @@
 
 This is a bot I made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
 
-I made this bot to protect our national flag on [/r/argentina](https://www.reddit.com/r/argentina/)
-
-![This is how it looks now, but it might change when you read it, visit the placebot-argentina-target repo to see how it actually is right now](https://raw.githubusercontent.com/Zequez/reddit-placebot/master/images/preview.png)
+This bot was coded by https://github.com/Zequez/ and adapted by me to work with the Venezuelan flag.
 
 ## Installation
 
 You need to have [NodeJS installed](https://nodejs.org)
 
 ```
-git clone https://github.com/zequez/reddit-placebot
-cd reddit-placebot
+git clone https://github.com/kustomrtr/placebot-vzla/
+cd placebot-vzla
 npm install
 ```
 
@@ -74,15 +72,6 @@ changes all at the same time, change the config:
 It'll keep keep drawing forever and if it can't draw anymore it's gonna
 wait until something breaks and fix it.
 
-## Testing
-
-LOL
-
-You can `npm run watch`, but that's about it.
-
-## Similar Projects
-
-Thanks to [trosh/rplace](https://github.com/trosh/rplace) to figure out how to actually read the bitmap from the server. I just ported that to Node.
 
 ## License
 
